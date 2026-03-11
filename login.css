@@ -7,8 +7,7 @@
 body
 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background: #645270;
-    background: linear-gradient(0deg, rgba(100, 82, 112, 1) 0%, rgba(44, 37, 48, 1) 100%);
+    background: #331d42;
 }
 
 #login-card
@@ -32,8 +31,14 @@ input
     width: 90%;
     padding: 10px 20px;
 }
-.boton
+.button
 {
     margin-top: 40px;
-
+    transition-duration: 0.4s;
+}
+.button:hover
+{
+    background-color: #473b4d; 
+    color: white;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)
 }

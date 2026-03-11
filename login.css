@@ -1,0 +1,39 @@
+*
+{
+    margin: 0px; 
+    padding: 0%;
+}
+
+body
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #645270;
+    background: linear-gradient(0deg, rgba(100, 82, 112, 1) 0%, rgba(44, 37, 48, 1) 100%);
+}
+
+#login-card
+{
+    margin: 100px auto;
+    min-height: 300px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background: #bc99e0;
+    background: linear-gradient(0deg, rgba(188, 153, 224, 1) 0%, rgba(97, 83, 115, 1) 100%);
+}
+
+.password, .name
+{
+    margin: 20px 0;
+}
+input
+{
+    width: 90%;
+    padding: 10px 20px;
+}
+.boton
+{
+    margin-top: 40px;
+
+}
